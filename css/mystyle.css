@@ -1,0 +1,722 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+body
+{
+    font-family: 'DroidArabicKufiRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+.english-font
+{
+    font-family: sans-serif;
+}
+/*********** starting navbar *************/
+nav
+{
+    background-color: transparent !important;
+    position: inherit ;
+}
+nav
+{
+    /*background-color: rgba(255,255,255,.95);*/
+    background: url('../img/bg-deco.png');
+    background-size: 1200px 173px;
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+}
+.navbar
+{
+    background-color: #4D5D5F !important;
+    background-color: transparent !important;
+    padding: 0px;
+    position: absolute;
+    z-index: 999;
+    direction: initial;
+}
+nav .container .logos
+{
+    width: 170px;
+    background: rgba(255,255,255,.6);
+    text-align: center;
+    margin-right: 38%;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    background: rgba(0,0,0,.5);
+    margin-left: -11%;
+    margin-top: 15px;
+}
+nav .container .logos h2
+{
+    color: #35c1f3;
+    color: #ddd !important;
+    font-size: 34px;
+}
+nav .container .logo
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+nav .container .logo2
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+nav .container ul
+{
+    background: rgba(255,255,255,.6);
+    border-radius: 15px 0px;
+    border: 2px solid #1b75bc;
+    padding-right: 30px;
+    background-color: rgba(0,0,0,.7);
+    direction: rtl;
+}
+nav .container .nav-link
+{
+    padding: 15px;
+    color: #ddd !important;
+    color: #1b75bc !important;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 35px;
+    border-bottom: 3px solid transparent;
+    transition: all .25s ease-in-out;
+}
+nav .container .nav-link:hover
+{
+    background-color: #1b75bc;
+    border-radius: 25px 0px;
+    color: #fff !important;
+}
+nav .container .myactive
+{
+    background-color: #1b75bc;
+    border-radius: 25px 0px;
+    color: #fff !important;
+}
+@media (max-width: 576px)
+{
+    .navbar-light .navbar-toggler 
+    {
+        background-color: #1b75bc;
+    }
+    nav .container .logos
+    {
+        margin-left: 15px;
+        margin-right: auto;
+    }
+    nav .container ul
+    {
+        margin-right: 25px !important;
+        background-color: #000 !important;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .navbar-light .navbar-toggler 
+    {
+        background-color: #1b75bc;
+    }
+    nav .container .logos
+    {
+        margin-left: -32%;
+        margin-right: auto;
+    }
+    nav .container ul
+    {
+        margin-right: 125px !important;
+        background-color: #000 !important;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    nav .container .logos
+    {
+        margin-left: -24%;
+        margin-right: auto;
+    }
+    .navbar-light .navbar-toggler 
+    {
+        background-color: #1b75bc;
+    }
+    nav .container ul
+    {
+        margin-right: 125px !important;
+        background-color: #000 !important;
+    }
+    
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    nav .container .nav-link
+    {
+        margin-left: 2px;
+    }
+    nav .container .logos
+    {
+        margin-left: -15.5%;
+        margin-right: 413px;
+    }
+}
+.navbar-partner
+{
+    position: absolute;
+    top: 40px;
+    z-index: 999;
+    left: 18%;
+    direction: rtl;
+    background: rgba(0,0,0,.75);
+    padding-left: 0;
+    padding-right: 35px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.navbar-partner .row
+{
+    
+}
+.navbar-partner .row > div
+{
+    
+}
+.navbar-partner .row > div img
+{
+    
+}
+@media (max-width: 576px)
+{
+    .navbar-partner
+    {
+        display: none;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .navbar-partner
+    {
+        left: 29%;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .navbar-partner
+    {
+        left: 33%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .navbar-partner
+    {
+        left: 16%;
+    }
+}
+/*********** End navbar *************/
+/***********  *************/
+/***********  *************/
+/*********** starting slider *************/
+.carousel 
+{
+    position: relative;
+    top: -30px;
+}
+.carousel .carousel-item
+{
+    background: rgba(0,0,0,.4) !important;
+}
+.carousel .carousel-item img
+{
+    height: 700px;
+}
+.carousel .carousel-caption 
+{
+    background: rgba(0,0,0,.5);
+    margin-bottom: 200px;
+    border-radius: 35px;
+}
+.carousel .carousel-item h5
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.carousel .carousel-item p
+{
+    
+}
+.carousel .carousel-item a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1b75bc;
+    border: 2px solid #1b75bc;
+    padding: 3px 35px;
+    transition: all .5s ease-in-out;
+}
+.carousel .carousel-item a:hover
+{
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.carousel-indicators .active 
+{
+    background-color: #fff;
+    background-color: #1b75bc !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon
+{
+    display: none !important;
+}
+/*********** End slider *************/
+/***********  *************/
+/***********  *************/
+/*********** starting about *************/
+.about
+{
+    
+}
+.about .container
+{
+    
+}
+.about .container h2
+{
+    text-align: center;
+}
+.about .container hr
+{
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border: 0;
+    border-top: 4px solid #1b75bc;
+    width: 200px;
+}
+.about .container .imag
+{
+    
+}
+.about .container .imag img
+{
+    width: 100%;
+    border-radius: 30px 0px;
+}
+.about .container .vocab
+{
+    
+}
+.about .container .vocab p
+{
+    text-align: right;
+    font-size: 16px;
+    color: #848484;
+    line-height: 3;
+}
+@media (max-width: 576px)
+{
+    .about .container .vocab p
+    {
+        line-height: 1.5;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .about .container .vocab p
+    {
+        line-height: 1.5;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .about .container .vocab p
+    {
+        line-height: 1.5;
+    }
+}
+/*********** End about *************/
+/***********  *************/
+/***********  *************/
+/*********** starting partner *************/
+.partner
+{
+    
+}
+.partner .container
+{
+    
+}
+.partner .container h2
+{
+    text-align: center;
+}
+.partner .container hr
+{
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border: 0;
+    border-top: 4px solid #1b75bc;
+    width: 170px;
+}
+.partner .container .row > div
+{
+    text-align: center;
+}
+.partner .container .row > div img
+{
+    
+}
+.partner .container h3
+{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: -1px -1px 0 #1b75bc, 1px -1px 2px #1b75bc, -1px 1px 0px #1b75bc, 1px 1px 0 #1b75bc;
+    text-shadow: -1px -1px 0 #000, 1px -1px 2px #000, -1px 1px 0px #000, 1px 1px 0 #000;
+}
+@media (max-width: 576px)
+{
+    .partner .container .row > div .partner3
+    {
+        margin-right: -20px;
+    }
+    .partner .container .row > div
+    {
+        margin-bottom: 35px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .partner .container .row > div
+    {
+        margin-bottom: 35px;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .partner .container .row > div
+    {
+        margin-bottom: 35px;
+    }
+}
+/*********** End partner *************/
+/***********  *************/
+/***********  *************/
+/*********** starting footer *************/
+footer
+{
+    text-align: right;
+    background-color: #252b34;
+}
+footer .container
+{
+    padding-top: 50px;
+}
+footer .container h3
+{
+    color: #fff;
+    margin-bottom: 30px;
+    color: #252b34;
+    text-shadow: -1px -1px 0 #1b75bc, 1px -1px 2px #1b75bc, -1px 1px 0px #1b75bc, 1px 1px 0 #1b75bc;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 2px #fff, -1px 1px 0px #fff, 1px 1px 0 #fff;
+}
+footer .container hr
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #1b75bc;
+}
+footer .container .about-library
+{
+    
+}
+footer .container .about-library p
+{
+    color: #fff;
+}
+footer .container .contact
+{
+    
+}
+footer .container .contact p
+{
+    color: #fff;
+}
+footer .container .contact i
+{
+    
+}
+footer .container .parts
+{
+    
+}
+footer .container .parts a
+{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    line-height: 4;
+    transition: all .3s ease-in-out;
+}
+footer .container .parts a:hover
+{
+    padding-right: 15px;
+}
+footer .container .copyright
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+footer .container .copyright p
+{
+    color: #fff;
+    margin-bottom: 0px;
+    
+}
+@media (max-width: 576px)
+{
+    footer .container .about-library
+    {
+        margin-bottom: 50px;
+    }
+    footer .container .contact
+    {
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    footer .container .about-library
+    {
+        margin-bottom: 50px;
+    }
+    footer .container .contact
+    {
+        margin-bottom: 50px;
+    }
+}
+/*********** End footer *************/
+/***********  *************/
+/***********  *************/
+/*********** starting intro *************/
+.intro
+{
+    background: url('../img/slider3.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -0-background-size:cover;
+    background-size:cover;
+    height: 680px;
+}
+.intro2
+{
+    background: url('../img/slider3.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -0-background-size:cover;
+    background-size:cover;
+    height: 680px;
+}
+.intro3
+{
+    background: url('../img/slider3.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -0-background-size:cover;
+    background-size:cover;
+    height: 680px;
+}
+.intro .overlay
+{
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: relative;
+}
+.intro .overlay .vocab
+{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 42%;;
+    left: 30%;
+}
+.intro .overlay .vocab h3
+{
+    font-size: 40px;
+    font-weight:bold;
+}
+.intro .overlay .vocab p
+{
+    
+}
+@media (max-width: 576px)
+{
+    .intro .overlay .vocab
+    {
+        left: 0px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .intro .overlay .vocab
+    {
+        left: 11%;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .intro .overlay .vocab
+    {
+        left: 21%;
+    }
+}
+/*********** End intro *************/
+/***********  *************/
+/***********  *************/
+/*********** starting books *************/
+.books
+{
+    
+}
+.books .container
+{
+    padding-top: 100px;
+}
+.books .container .row
+{
+    
+}
+.books .container .row > div
+{
+    padding: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    transition: all .6s ease-in-out;
+}
+.books .container .row > div .overlay
+{
+    position: absolute;
+    background: rgba(00, 00, 00, 0.7);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+.books .container .row > div:hover .overlay
+{
+    opacity: 1;
+}
+.books .container .row > div .overlay h4
+{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.books .container .row > div .overlay a
+{
+    text-decoration: none;
+    margin: auto;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #1a74bb;
+    border: 2px solid #fff;
+    width: 125px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all .35s ease-in-out;
+}
+.books .container .row > div .overlay a:hover
+{
+    background-color: #0D4A7B;
+}
+.books .container .row > div .overlay p
+{
+    color: #fff;
+    font-size: 14px;
+}
+.books .container .row > div img
+{
+    width: 100%;
+}
+@media (max-width: 576px)
+{
+    .books .container .row > div
+    {
+        margin-bottom: 30px;
+    }
+    .books .container .row > div .overlay p
+    {
+        margin-top: 30px;
+    }
+}
+/*********** starting books *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+
+/***********
+@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 789px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)
+*************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+
+/***********media query  *************/
+@media (max-width: 576px)
+{
+    .container
+    {
+        width: 360px;
+    }
+}
+@media (min-width: 576px)
+{
+    .container
+    {
+        width: 540px;
+    }
+}
+@media (min-width: 768px)
+   
+{
+    .container
+    {
+        width: 720px;
+    }
+}
+@media (min-width: 992px)
+ 
+{
+    .container
+    {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .container
+    {
+        width: 1200px;
+    }
+}
+/******* End @media *********/
